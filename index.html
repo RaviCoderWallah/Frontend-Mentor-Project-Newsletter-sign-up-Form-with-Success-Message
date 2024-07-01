@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ravi Verma">
+    <title>Newsletter sign-up form with success message - Frontend Mentor Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sign-up__main-container">
+        <div class="sign-up__inner-container">
+            <div class="sign-up__typography-outer-part">
+                <div class="sign-up__typography-inner-part">
+                    <h1>Stay updated!</h1>
+                    <p>
+                        Join 60,000+ product managers receving monthly updates on: 
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="icon-list.svg" alt="List check icon" loading="lazy">
+                            <p>
+                                Product discovery and building what matters
+                            </p>
+                        </li>
+                        <li>
+                            <img src="icon-list.svg" alt="List check icon" loading="lazy">
+                            <p>
+                                Measuring to ensure updates are a success 
+                            </p>
+                        </li>
+                        <li>
+                            <img src="icon-list.svg" alt="List check icon" loading="lazy">
+                            <p>
+                               Add much more!
+                            </p>
+                        </li>
+                    </ul>
+                    <form id="get-email-form">
+                        <div class="label">
+                            <label>Email Address</label>
+                            <label class="error-text">Valid email required</label>
+                        </div>
+                         <input type="email" id="email-address"
+                         placeholder="email@company.com"
+                         >
+                         <button id="subscribe-btn">Subscribe to monthly newsletter</button>
+                    </form>
+                </div>
+            </div>
+            <div class="sign-up__image-part">
+                <img src="illustration-sign-up-desktop.svg" alt="Sign up image for illustrate only" loading="lazy"
+                id="large-image">
+                <img src="illustration-sign-up-mobile.svg" alt="Sign up image for illustrate only" loading="lazy"
+                id="small-image">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
